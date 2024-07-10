@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const App = () => {
   const [getData, setGetData] = useState('');
-  const [postData, setPostData] = useState('yrdy');
+  const [postData, setPostData] = useState('');
   const [responseData, setResponseData] = useState('');
 
   const handleGetRequest = async () => {
